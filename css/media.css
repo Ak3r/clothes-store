@@ -1,0 +1,269 @@
+@media (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+
+    .banner-wrap {
+        text-align: center;
+    }
+
+    .slider-bg {
+        height: 460px;
+    }
+
+    .slider-info {
+        width: 205px;
+        height: 100px;
+    }
+
+    .slider-title {
+        font-size: 23px;
+        padding-bottom: 5px;
+    }
+
+    .slider-description {
+        font-size: 15px;
+        margin-bottom: 30px;
+        padding: 10px 0;
+    }
+
+    .slider-btn {
+        font-size: 15px;
+    }
+
+    .pagination {
+        padding-left: 0;
+    }
+
+    .product-card {
+        width: 100px;
+    }
+
+    .clothes-item {
+        margin: 7.5px;
+    }
+
+    .insta-post {
+        width: 130px;
+    }
+
+    .user {
+        width: 160px;
+    }
+
+    .newsletter-btn {
+        width: auto;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .newsletter-item input::placeholder,
+    .newsletter-item input {
+    font-size: 14px;
+    width: auto;
+}
+
+    .cadastrar-btn {
+        width: auto;
+        font-size: 14px;
+        padding: 0 10px;
+        box-shadow: 2px 4px 0 rgba(20, 21, 24, 0.75);
+        border: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 1000px;
+    }
+
+    .pagination {
+        padding-left: 5%;
+    }
+
+    .product-card {
+        width: 160px;
+    }
+
+    .clothes-item {
+        margin: 7.5px;
+    }
+
+    .insta-post {
+        width: 190px;
+    }
+
+    .user {
+        width: 240px;
+    }
+
+    .newsletter-item input {
+        width: auto;
+    }
+}
+
+@media (max-width: 700px){
+    .wrap-for-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        order: -1;
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    .header-title,
+    .header-login,
+    .header-btn a{
+        font-size: 25px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .clothes-row {
+        flex-direction: column;
+    }
+
+    .clothes-item {
+        width: 280px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter-item {
+        margin: 0;
+    }
+
+    .newsletter-btn,
+    .newsletter-item input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-btn:after {
+        display: none;
+    }
+
+    .cadastrar-btn {
+        width: 100%;
+        box-shadow: none;
+        border-bottom: 2px solid #000;
+        padding: 0;
+    }
+
+    .pagination a {
+        padding: 12px 12px;
+    }
+
+    .slider-bg {
+        background-position: left 35% bottom 45%;
+    }
+
+    .slider-info{
+        width: auto;
+        height: auto;
+    }
+
+    .slider-title {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .slider-description {
+        font-size: 10px;
+        padding: 0;
+        padding-top: 5px;
+    }
+
+    .slider-btn {
+        padding: 5px 5px;
+    }
+
+    .content-title p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .content-title {
+        margin: 20px 0;
+    }
+
+    .content-title img{
+        width: 38px;
+    }
+
+    .brand {
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .footer-body {
+        display: none;
+    }
+
+    .footer {
+        background-color: #f1f1f1;
+    }
+
+    .mobile-footer {
+        display: block;
+        text-align: center;
+        color: #000;
+    }
+
+    .mobile-footer img {
+        margin-top: 10px;
+    }
+
+    .menu-content,
+    .basket-form {
+        width: 300px
+    }
+
+    .menu-content a {
+        font-size: 14px;
+    }
+
+    .search-input::placeholder {
+        font-size: 14px;
+    }
+
+    .basket-title {
+        font-size: 14px;
+    }
+    
+    .basket-price {
+        display: none;
+    }
+
+    .basket-footer div {
+        padding-right: 0;
+    }
+
+    .basket-footer p {
+        font-size: 14px;
+    }
+
+    .fa-heart,
+    .overlay-text,
+    .overlay p {
+        font-size: 14px;
+        letter-spacing: 0;
+        font-weight: 600;
+    }
+}
