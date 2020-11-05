@@ -1,4 +1,25 @@
 @media (max-width: 768px) {
+    .insta-post:hover .overlay-post,
+    .user:hover .overlay-post {
+        opacity: 0;
+    }
+
+    .user .overlay-post,
+    .insta-post .overlay-post {
+        opacity: 0.5;
+        background-color: #fff;
+    }
+
+    .overlay-text,
+    .fa-heart {
+        display: none;
+    }
+
+    .insta-post,
+    .user {
+        border: 5px solid white;
+    }
+
     .container {
         width: 700px;
     }
@@ -31,14 +52,6 @@
         font-size: 15px;
     }
 
-    .pagination {
-        padding-left: 0;
-    }
-
-    .product-card {
-        width: 100px;
-    }
-
     .clothes-item {
         margin: 7.5px;
     }
@@ -60,7 +73,7 @@
     .newsletter-item input::placeholder,
     .newsletter-item input {
     font-size: 14px;
-    width: auto;
+    width: 190px;
 }
 
     .cadastrar-btn {
@@ -71,15 +84,20 @@
         border: none;
     }
 
+    .product-list {
+
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+
     .container {
-        width: 1000px;
+        width: 700px;
     }
 
     .pagination {
-        padding-left: 5%;
+        padding-left: 0;
     }
 
     .product-card {
@@ -99,11 +117,42 @@
     }
 
     .newsletter-item input {
-        width: auto;
+        width: 170px;
     }
+
+    .newsletter-item input::placeholder {
+        font-size: 14px;
+    }
+
+    .newsletter-btn,
+    .cadastrar-btn {
+        width: auto;
+        padding: 0 15px;
+        font-size: 18px;
+    }
+
+    .slider-info {
+        width: 250px;
+    }
+
+    .slider-title {
+        font-size: 24px;
+    }
+
+    .slider-description {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .slider-btn {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 700px){
+
+
     .wrap-for-mobile {
         display: flex;
         flex-direction: column;
@@ -185,8 +234,12 @@
 
     .slider-description {
         font-size: 10px;
-        padding: 0;
         padding-top: 5px;
+        margin: 0;
+    }
+
+    p {
+        margin: 0;
     }
 
     .slider-btn {
@@ -194,7 +247,7 @@
     }
 
     .content-title p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 18px;
     }
 
